@@ -14,7 +14,7 @@ public class EndpunktApplication {
 		SpringApplication.run(EndpunktApplication.class, args);
 	}
 
-	@GetMapping("/api/antonia")
+	@GetMapping("/endpunkt/antonia")
     public String sagHallo() {
         return "Hallo, das ist Antonias Spring Boot Endpunkt!";
     }
